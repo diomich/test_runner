@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7280901168689099849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7722700920234611337}
+  - component: {fileID: 7671238511264138342}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7722700920234611337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280901168689099849}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 242.77322, y: -9.666259, z: -0.28444767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7671238511264138342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280901168689099849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da761409ad26407fb76409e60afc4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _knownSounds:
+  - Id: background_chineese
+    Clip: {fileID: 8300000, guid: 88cffeafb071949f88d27783f43c4429, type: 3}
+  - Id: sfx_coin_collect
+    Clip: {fileID: 8300000, guid: 19416523221124c2680dce5e9df882f4, type: 3}
+  - Id: sfx_hello
+    Clip: {fileID: 8300000, guid: 180e4dc8bb5df4e44a472a85ae1cd528, type: 3}
+  - Id: sfx_jump
+    Clip: {fileID: 8300000, guid: b8ac3513ea20943ea8d1cf73bf32ea74, type: 3}
+  - Id: sfx_slow_down
+    Clip: {fileID: 8300000, guid: 4ac5b1294ac5348d49e39acbec4ce497, type: 3}
+  - Id: sfx_speed_up
+    Clip: {fileID: 8300000, guid: 68608490e8faa4a41a541d7399dc3a8f, type: 3}
+  - Id: sfx_death
+    Clip: {fileID: 8300000, guid: d486d751242fc48b38ed897759535ecb, type: 3}
+  - Id: sfx_fly
+    Clip: {fileID: 8300000, guid: 4520238ec6ad048a1a6a5b60c83274e5, type: 3}
+  _audioSourceSfxCount: 8
